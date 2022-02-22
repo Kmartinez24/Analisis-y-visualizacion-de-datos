@@ -1,24 +1,43 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"strconv"
+)
 
 func sumaCuadrados(n int) (suma int) {
-	if n >= 5 {
-		for i := 0; i < n; i++ {
-			suma = suma + (n * n)
+	for i := 0; i <= n; i++ {
+		if i%2 == 0 {
+			suma = suma + (i * i)
 		}
-	} else {
-		n = 0
 	}
 	return
 }
 
-func cuadrado(n int) (cuadrado int) {
-	cuadrado = n * n
+func sumaCubos(n int) (suma int) {
+	for i := 0; i <= n; i++ {
+		if i%2 != 0 {
+			suma = suma + (i * i * i)
+		}
+	}
 	return
 }
 
+func parImpar(n int) int {
+	if n%2 != 0 {
+		return sumaCubos(n)
+	} else {
+		return sumaCuadrados(n)
+	}
+
+}
+
 func main() {
-	fmt.Println(sumaCuadrados(5))
-	fmt.Println(cuadrado(5))
+	Numero, err := strconv.Atoi(os.Args[1])
+	if err != nil {
+		fmt.Println("Hay un error en el codigo")
+	} else {
+		fmt.Println("El resultado es", parImpar(Numero))
+	}
 }

@@ -15,12 +15,19 @@ func main() {
 	if len(os.Args) < 3 {
 		fmt.Println("El formato es go run main.go n1 n2")
 	} else {
-		n1str := os.Args[1]
-		n2str := os.Args[2]
-		n1, _ := strconv.Atoi(n1str)
-		n2, _ := strconv.Atoi(n2str)
-		res := dividir(n1, n2)
+		n1, error1 := strconv.Atoi(os.Args[1])
+		if error1 != nil {
+			fmt.Println("Error en el primer argumento")
+			return
+		} else {
+			n2, error2 := strconv.Atoi(os.Args[2])
+			if error2 != nil {
+				fmt.Println("Error en el segundo argumento")
+				return
 
-		fmt.Printf("El resultado de la operacion %s / %s es: %2.2f", n1str, n2str, res)
+			} else {
+				fmt.Printf("El resultado de la operacion %d / %d es: %2.2f", n1, n2, dividir(n1, n2))
+			}
+		}
 	}
 }
