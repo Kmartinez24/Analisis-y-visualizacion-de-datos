@@ -2,22 +2,24 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"strconv"
 )
 
 func main() {
+	//Grafico de barras que recibe los argumentos desde la terminal
 	var nums []int
-	var cdatos, n int
+	var dato int
 	var symbol string
 
-	fmt.Printf("Simbolo para rellenar: ")
-	fmt.Scanln(&symbol)
-	fmt.Printf("Cuantos datos desea ingresar? ")
-	fmt.Scanln(&cdatos)
-	for i := 0; i < cdatos; i++ {
-		fmt.Printf("Numero de la posicion %d: ", i+1)
-		fmt.Scan(&n)
-		nums = append(nums, n)
+	for i := 0; i < len(os.Args); i++ {
+		if i > 1 {
+			dato, _ = strconv.Atoi(os.Args[i])
+			nums = append(nums, dato)
+			fmt.Println(dato)
+		}
 	}
+	symbol = os.Args[1]
 	fmt.Println(nums)
 	fmt.Println("Numero maximo = ", findMax(nums))
 	graficaBarras(nums, findMax(nums), symbol)
