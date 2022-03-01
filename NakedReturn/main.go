@@ -1,5 +1,8 @@
 package main
 
+import "fmt"
+
+/*
 import (
 	"fmt"
 	"os"
@@ -40,4 +43,35 @@ func main() {
 	} else {
 		fmt.Println("El resultado es", parImpar(Numero))
 	}
+}
+*/
+
+func main() {
+	for i, j := 1, 10; i <= 10; i, j = i+1, j-1 {
+		fmt.Printf("Contador i: %d | Contador j: %d \n", i, j)
+	}
+
+	//while
+	valid, i, veces := true, 1, 10
+	for valid {
+		if i == veces {
+			valid = false
+		}
+		fmt.Println(i)
+		i++
+	}
+
+	i = 1
+	for i <= 10{
+		fmt.Println(i)
+		i++
+	}
+	 c := 1
+	 for{
+		 if c > 10{
+			 return
+		 }
+		 fmt.Println(c)
+		 c++
+	 }
 }

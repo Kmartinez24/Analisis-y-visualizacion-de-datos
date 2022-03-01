@@ -4,37 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721e9507-77da-4202-aa11-90c837f2bb67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clase210222/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase210222/.idea/Clase210222.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase210222/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase210222/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase210222/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Clase210222/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras2/Graficos/Barras.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras2/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/.idea/GraficoBarras.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GraficoBarras3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/NakedReturn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Paquetes/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Paquetes/calcfloats/operaciones.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Paquetes/calcints/operaciones.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Paquetes/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Paquetes/main.go" afterDir="false" />
+    <list default="true" id="721e9507-77da-4202-aa11-90c837f2bb67" name="Changes" comment="Programa de Naked Return">
       <change beforePath="$PROJECT_DIR$/../Blockchain" beforeDir="false" afterPath="$PROJECT_DIR$/../Blockchain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GraficoBarras/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../GraficoBarras/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +48,25 @@
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="NakedReturn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="NakedReturn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -89,6 +81,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Programa de Naked Return" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa de Naked Return" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
