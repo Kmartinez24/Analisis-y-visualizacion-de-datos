@@ -1,2 +1,2 @@
-# Analisis-y-visualizacion-de-datos
-El jota me quiere robar mis codigos. Saludos
+# Analisis-y-visualizacion-de-datos-GoLang
+Repository mainly for go and data visualization
